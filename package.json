@@ -1,0 +1,12 @@
+{
+  "name": "quizbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram quiz/test bot + admin panel (Netlify Functions + Turso)",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test --test-concurrency=1 \"tests/*.test.mjs\"",
+    "dev": "node dev/server.mjs"
+  }
+}
